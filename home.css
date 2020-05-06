@@ -1,0 +1,411 @@
+ul#list li{
+    float: left;
+    list-style: none;
+    padding: 8px 16px;
+    margin: 5px 0 5px 0;
+}
+#list li:hover{
+    background-color:rgb(27, 90, 177) ;
+}
+
+div#icons{
+    display: inline;
+}
+.but{
+        font-size: 11px;
+        font-weight: 300;
+        margin-right: 5px;
+        padding: 4px 12px;
+        border: none;
+        color:green;
+        border: 1px solid green;
+    
+}
+.fl{
+    display: flex;
+    align-items: center; 
+}
+.snav{
+	display:none;
+}
+@media only screen and (max-width:990px){
+.snav{
+display:block;
+    height: 295px;
+    z-index: 10; 
+    overflow-y: scroll ;
+    position: sticky;
+    top: 68px;
+    background-color: white;
+}
+.navbar1,.navv2{
+    padding: 0px;
+}
+.home1{
+   background-color: #316DC3;
+   color: white;
+}
+.firstli{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    /* margin-top: 1px; */
+    border-bottom: 1px rgb(245, 245, 245) solid;
+
+}
+.firstli:hover{
+   background-color: #316DC3;
+   color: white;
+
+}
+.firstspan{
+    display: inline-block;
+    padding: 9px ;
+    margin-left: 8px;
+    /* border: 1px #316DC3 solid; */
+
+}
+.icons1{
+    display: inline-block !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    float: right;
+    border-left: 1px rgb(231, 231, 231) solid;
+    padding: 11px 20px;
+    /* border: 1px solid red; */
+
+}
+
+.subicons{
+    display: inline-block !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    float: right;
+    border-left: 1px rgb(231, 231, 231) solid;
+    padding: 6px 22px;
+}
+.subnavbar1,.navv3{
+    padding: 0px;
+}
+.secondli,.thirdli,.lastlist{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    border-bottom: 1px rgb(245, 245, 245) solid;
+}
+.secondspan,.thirdspan,.lastitems{
+display: inline-block;
+padding: 6px;
+font-size: 13px;
+margin-left: 27px;
+transition: all 0.5s;
+}
+.thirdspan{
+    margin-left: 45px !important;
+}
+.secondli:hover>.secondspan{
+    margin-left: 35px !important;
+}
+.thirdli:hover>.thirdspan{
+    margin-left: 55px !important;
+}
+.lastitems{
+    margin-left: 60px !important;
+}
+.lastlist:hover>.lastitems{
+    margin-left: 70px !important;
+}
+.secondli:hover,.thirdli:hover,.lastlist:hover{
+   background-color: #316DC3;
+   color: white;
+}
+
+
+
+
+
+
+
+    .fl{
+        
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .navv{
+        display: none !important;
+    }
+    .para {
+        padding: 5px !important;
+    }
+    .labal{
+        display: inline-block !important;
+        float: right;
+        margin-top: 15px;
+    }
+}
+.labal{
+    display: none;
+}
+.b{
+   background-color: rgb(230, 232, 236);
+    padding: 5px 0px 7px 0px !important;
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+}
+.navv{
+    display: inline-block;
+     /*float:right;*/
+     margin: 0;
+     /* border: 1px red solid; */
+}
+.navv li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 16px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    position: relative;
+}
+.navv li:hover{
+    background-color: #316DC3;
+    color: white;
+}
+.sub1{
+    position: absolute;
+    width: 210px;
+background-color: white;
+padding:0px;
+top: 37px;
+display: none;
+z-index: 1;
+
+}
+.sub1 li{
+    display:block;
+    /* width: 200; */
+    border-radius: 0px !important;
+    margin: 0px;
+
+
+}
+.container-fluid.e p{
+    text-align: left;
+    /* padding-left: 200px; */
+     /* padding-right: 200px; */
+     padding-top: 20px;
+     color: #8d8d8e;
+}
+.container-fluid.e{
+    padding-bottom: 50px;
+}
+.es{
+    position: relative;
+}
+li:hover>ul{
+    display: block;
+}
+.drop{
+    border: 2px gray solid;
+    width :25px;
+    margin:4px;
+
+}
+.para{
+    padding: 0px 12%;
+}
+.container-fluid.k h4{
+    color: #316DC3;
+    font-weight: 600;
+    font-size: 1.25em;
+    padding-top: 20px
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap: 30px;
+}
+.box{
+    box-shadow: 2px 1px 10px rgb(223, 221, 221);
+    background-color: white;
+    padding: 2.2rem 0px;
+}
+.a{
+    padding: 50px;
+}
+.b{
+    border: 1px solid #eeeeee;
+    padding: 17px 0;
+    background-color: #f7f8fa;
+}
+.imagegrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+    grid-row-gap: 100px;
+    grid-column-gap: 2px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.imagegrid>div>img{
+    width: 100%;
+    height: 100%;
+}
+.imagegrid>div{
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 160px;
+}
+
+ul#fist li{
+    float: left;
+    list-style: none;
+    padding: 4px 10px;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    background-color:#316dd9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sub1 li i{
+    float: right;
+}
+.es1:hover>.sub1{
+    display: block;
+}
+.es1 ul{
+    position: absolute;
+    right: -300px !important;
+    top: 0px;
+    background: white;
+    padding: 0px;
+    width: 300px;
+}
+.es1 ul li{
+    margin: 0px;
+} 
+.navv li ul li:hover{
+    padding-left: 25px;
+}
+ul#fist{
+    padding-left: 0px !important;
+}
+.useful{
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    position: relative;
+}
+.line{
+    border: 1px solid #427900;
+    width: 45px;
+    position: absolute;
+    top: 29px;
+}
+.imagegrid>div:hover>img{
+    transform: scale(1.1);
+    opacity: 1;
+    opacity: 0.2;
+
+    transition: all 0.2s linear;
+}
+
+.abc{
+   position: relative;
+   top:-200px;
+   color: white;
+   text-align: center;
+   height: 100%;
+
+}
+.dropdown:hover>div{
+    top: -100px;
+}
+
+.abc i{
+    padding: 7px;
+    color: white;
+    background-color: #316DD9;
+    border-radius: 53%;
+    cursor: pointer;
+}
+/* .dropdown{
+    overflow: hidden;
+} */
+.scroll {
+    background: rgba(0, 0, 0, 0.1);
+    bottom: 15px;
+    display: none;
+    height: 50px;
+    padding: 2px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    z-index: 99999;
+}
+.scroll i {
+    color: #fff;
+    font-size: 42px;
+}
+.scroll:hover{
+    background-color: #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
